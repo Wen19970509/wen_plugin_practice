@@ -1,24 +1,28 @@
 # plugin_practice
 
-## Project setup
+## install
+
 ```
-npm install
+npm i wen-plugin_practice
 ```
 
-### Compiles and hot-reloads for development
-```
-npm run serve
+### install plugin
+
+```js
+// main.js
+
+import App from './App.vue';
+import HelloButton from 'wen-plugin_practice';
+
+const app = createApp(App);
+app.use(HelloButton);
 ```
 
-### Compiles and minifies for production
-```
-npm run build
-```
+### Usage anywhere
 
-### Lints and fixes files
+```html
+<template>
+    <!-- something else -->
+    <hello-button />
+</template>
 ```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
