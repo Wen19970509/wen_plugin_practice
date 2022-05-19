@@ -1,5 +1,7 @@
 # plugin_practice
 
+[demo](https://wen19970509.github.io/wen_plugin_practice/)
+
 ## install
 
 ```
